@@ -10,7 +10,6 @@ body {
 }
 
 .menu-nav {
-    height: inherit;
     margin-left: 156px;
     margin-right: 56px;
 }
@@ -38,7 +37,6 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    line-height: 1.11;
     text-transform: capitalize;
 }
 
@@ -118,28 +116,6 @@ body {
     background-color: #404BBF;
 }
 
-.menu-nav-header-studio {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-    text-decoration: none;
-    font-size: 16px;
-    line-height: 24px;
-}
-
-.menu-nav-header-studio:hover {
-    color: #404BBF;
-}
-.menu-nav-header-studio:active {
-    color: #404BBF;
-}
-.menu-nav-header-studio:focus {
-    color: #404BBF;
-}
-
 .menu-nav-header {
     font-style: normal;
     font-weight: 500;
@@ -153,6 +129,9 @@ body {
 }
 
 .menu-nav-header:hover {
+    color: #404BBF;
+}
+.menu-nav-header:active {
     color: #404BBF;
 }
 .menu-nav-header:focus {
@@ -204,7 +183,6 @@ body {
      letter-spacing: 0.02em;
      text-align: center;
      color: #2E2F42;
-    line-height: 1.11;
     text-transform: capitalize;
 }
 .section-team {
