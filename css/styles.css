@@ -141,7 +141,7 @@ body {
     font-style: normal;
 }
 
-.contact-mailto{
+.contact{
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
@@ -150,27 +150,11 @@ body {
     color: #434455;
     text-decoration: none;
 }
-.contact-mailto:hover {
+.contact:hover {
     color: #404BBF;
 }
 
-.contact-mailto:focus {
-    color: #404BBF;
-}
-
-.contact-tel {
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    text-decoration: none;
-}
-.contact-tel:hover {
-    color: #404BBF;
-}
-.contact-tel:focus {
+.contact:focus {
     color: #404BBF;
 }
 
