@@ -177,6 +177,10 @@ body {
     color: #404BBF;
 }
 
+.contact-mailto:focus {
+    color: #404BBF;
+}
+
 .contact-tel {
     font-weight: 400;
     font-style: normal;
@@ -189,11 +193,14 @@ body {
 .contact-tel:hover {
     color: #404BBF;
 }
+.contact-tel:focus {
+    color: #404BBF;
+}
 
 .title-main {
      font-weight: 700;
      font-size: 36px;
-     line-height: 1.11%;
+     line-height: 1.2;
      letter-spacing: 0.02em;
      text-align: center;
      color: #2E2F42;
@@ -205,5 +212,9 @@ body {
 }
 
 .section-team-li {
+    background-color: #FFFFFF;
+}
+
+.our-team-section {
     background-color: #FFFFFF;
 }
